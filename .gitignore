@@ -1,0 +1,27 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+~$*.docx
+package-lock.json
+/*/node_modules
+/client.web/src/common
+/server/node_modules
+/server/photos
+
+# testing
+/coverage
+
+# production
+/client.web/build
+/server/dist
+/server/test/dist
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.idea
+/data
